@@ -3,6 +3,7 @@ import ActiveModelAdapter from 'active-model-adapter';
 
 import Ember from 'ember';
 
+// this is the exact same code as ajax/service.js
 export default ActiveModelAdapter.extend({
   host: ENV.apiHost,
 
